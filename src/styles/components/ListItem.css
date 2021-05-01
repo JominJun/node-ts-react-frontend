@@ -1,0 +1,103 @@
+.listItem {
+	width: 100%;
+	height: 70px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+
+	padding: 15px 20px;
+
+	border-bottom: 1px solid #ccc;
+
+	cursor: pointer;
+}
+
+.listItem:hover {
+	background-color: #fafafa;
+}
+
+.listItem:first-child {
+	border-top: 1px solid #ccc;
+}
+
+.listItem > .likeBox {
+	height: 100%;
+
+	padding-left: 10px;
+	padding-right: 30px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: #777;
+}
+
+.likeBox * {
+	cursor: pointer;
+}
+
+.listItem > .likeBox {
+	font-size: 18px;
+}
+
+.listItem > .likeBox > span {
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.listItem > .mainBox {
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.mainTopBox {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: 500;
+
+	cursor: pointer;
+}
+
+.commentCounts {
+	margin-left: 5px;
+
+	color: #ee5555;
+	font-size: 14px;
+}
+
+.mainBottomBox {
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 10px;
+
+	color: #555;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.mainBottomBox i {
+	margin-right: 3px;
+}
+
+.divider {
+	width: 1px;
+	height: 100%;
+
+	background-color: #777;
+
+	margin: 0px 7px;
+}
